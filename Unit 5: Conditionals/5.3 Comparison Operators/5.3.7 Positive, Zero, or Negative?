@@ -1,10 +1,8 @@
-x = int(input("Provide a number: "))
+number = int(input("What is the number? "))
 
-if (x < 0):
+if number == 0:
+    print("That number is zero!")
+elif number < 0:
     print("That number is negative!")
 else:
-    if(x == 0):
-        print("That number is zero!")
-    
-    if (x > 0):
-        print("That number is positive!")
+    print("That number is positive!")
